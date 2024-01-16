@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* O que é ID em HTML, é # em CSS
+O que é classe em HTML, é . em CSS */
+
 body{
     background-color: rgba(220, 20, 60, 0.364);
     font-family: Arial, Helvetica, sans-serif;
