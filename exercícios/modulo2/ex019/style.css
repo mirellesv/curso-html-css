@@ -4,19 +4,18 @@
 O que é classe em HTML, é . em CSS */
 
 body{
-    background-color: rgba(220, 20, 60, 0.364);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-    color:rgb(245, 26, 70);
+    color:#C92B1C;
 }
 
 /* Seletor Personalizado */
 h1#principal{ 
     text-align: center;
-    background-color: rgba(220, 20, 60, 0.364);
-    color: white;
+    color: A12216;
 }
 
 h2{
