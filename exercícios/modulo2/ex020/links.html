@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color:rgb(127, 159, 255);
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: green;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:red;
+        }
+
+        .especial::before{
+            content: '⇒';
+        }
+
+        .especial:after{
+            content: '⇐';
+        }
+
+        .especial:hover{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <p>Links importantes:</p>
+
+    <ul>
+        <li><a href="https://github.com/mirellesv" target="_blank">Acesse o meu repositório no GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/mirelle-silva-vieira/" target="_blank">Acesse o meu perfil no Linkedin</a></li>
+        <li><a href="https://www.youtube.com/channel/UC87NMgx17hkk9ER7yVtTvSg" target="_blank" class="especial">Acesse o meu canal no Youtube</a></li>
+        <li><a href="https://instagram.com/mirelle_sv" target="_blank" class="especial">Acesse o meu instagram</a></li>
+        <li><a href="#">Acesse o meu site.</a></li>
+    </ul>
+</body>
+</html>
