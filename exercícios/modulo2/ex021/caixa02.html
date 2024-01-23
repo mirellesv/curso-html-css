@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+
+        header {
+            background-color:cornsilk;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: blanchedalmond;
+            padding: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color:cadetblue;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        article {
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, política e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem obcaecati harum dolores architecto aut nemo id sint doloribus quibusdam alias voluptatem error blanditiis velit, perspiciatis quae vero minus sequi?</p>
+                <aside>
+                    <p>Artigo escrito por Mirelle.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim.</p>
+    </footer>
+</body>
+</html>
