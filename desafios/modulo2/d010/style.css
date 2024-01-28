@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #84e1ad;
+    font: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-indent: 2em;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: white;
+    background-color: #238b50;
+    background-image: linear-gradient(to bottom, #46cb80, #165e35);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%
+}
+
+nav {
+    background-color: #165e35;
+    text-align: left;
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    width: 800px;
+    height: 2080px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.351);
+}
+
+aside {
+    background-color: #84e1ac92;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+#tituloextra {
+    background-color: #63cc91;
+    text-indent: 0;
+    color: white;
+    font-weight: bold;
+    height: 25px;
+}
+
+#lista {
+    text-indent: 0;
+    list-style-type: '✔ ';
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+footer {
+    background-color: #165e35;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    margin: 15px 0 0 0;
+    color: white;
+}
+
+.palavrasrodape {
+    font-weight: bold;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.links:hover {
+    background-color: #84e1ad;
+}
+
+h1#tituloprincipal{
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.titulos {
+    font-family: 'idroid';
+    color: #267145;
+    text-indent: 0;
+}
+
+.subtitulos {
+    background-color: white; 
+    background-image: linear-gradient(to right, #84e1ac90, white);
+}
+
+.grifado {
+    font-weight: bold;
+    color: #267145;
+    text-decoration: none;
+}
+
+.linktexto:hover {
+    background-color: #238b50;
+    color: white;
+}
+
+.linktexto::after {
+    content: '🔗';
+}
