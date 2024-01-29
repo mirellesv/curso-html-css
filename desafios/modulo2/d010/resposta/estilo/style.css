@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* 
+#C5EBD6
+#8CB89F
+#4A8565
+#1D5235
+#08331B
+*/
+
+body {
+    background-color: #c5ebd6;
+}
+
+header > h1 {
+    color: #1D5235;
+}
+
+header > p {
+    color: #08331B;
+}
