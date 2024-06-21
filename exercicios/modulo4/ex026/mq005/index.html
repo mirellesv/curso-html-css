@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudou_tamanho()">
     <header>
         <h1>Meu site responsivo</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="abrir_menu()">menu</span>
@@ -46,6 +46,10 @@
         </article>
     </main>
     <script>
+        function mudou_tamanho(){
+            menu.style.display = (window.innerWidth >= 768 ? 'block' : 'none')
+        }
+
         function abrir_menu(){
             menu.style.display = (menu.style.display == 'block' ? 'none' : 'block')
         }
