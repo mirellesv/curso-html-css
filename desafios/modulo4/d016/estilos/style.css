@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+:root {
+    --cor_fundo: #5F2C82;
+    --cor_verde_claro: #71bab8;
+    --cor_verde_sombra: #559390;
+    --largura: 300px;
+    --altura: 500px;
+}
+
+body {
+    background-color: var(--cor_fundo);
+    position: relative;
+    height: 97vh;
+}
+
+main {
+    background-color: white;
+    display: inline-block;
+    height: var(--altura);
+    width: var(--largura);
+    border-radius: 10px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+div#form-login {
+    padding: 0 10px 10px 10px;
+}
+
+div#form-login > h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+div#form-login > p#texto {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+div#form-login > form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#form-login > form > p.p-campos {
+    background-color: var(--cor_fundo);
+    width: 185px;
+    height: 30px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+div#form-login > form > p.p-campos > input {
+    background-color: var(--cor_verde_claro);
+    height: 30px;
+    border-radius: 10px;
+    vertical-align: 5px;
+}
+
+div#form-login > form > p#campo-email {
+    margin-bottom: 5px;
+}
+
+.botoes {
+    display: block;
+    margin: auto;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid var(--cor_verde_sombra);
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input#botao-enviar {
+    background-color: var(--cor_verde_claro);
+    color: white;
+}
+
+input#botao-enviar:hover {
+    background-color: var(--cor_verde_sombra);
+}
+
+input#botao-esqsenha {
+    background-color: white;
+    color: var(--cor_verde_claro);
+}
+
+input#botao-esqsenha:hover {
+    background-color: #7bd5d2;
+    color: white;
+}
+
+div#imagem {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    background-image: url(../imagens/metal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
