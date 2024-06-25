@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+    :root {
+        --cor_fundo: #5F2C82;
+        --cor_verde_claro: #71bab8;
+        --cor_verde_sombra: #559390;
+    }
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, var(--cor_fundo), var(--cor_verde_claro));
+    }
+
+    main {
+        width: 700px;
+        height: 300px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    div#form-login {
+        margin-left: 30%;
+    }
+
+    div#form-login > form > p.p-campos > input {
+        width: 415px;
+    }
+
+    div#form-login > form > p.campos, .botoes {
+        width: 470px;
+    }
+}

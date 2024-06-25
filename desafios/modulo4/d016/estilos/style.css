@@ -8,8 +8,6 @@
     --cor_fundo: #5F2C82;
     --cor_verde_claro: #71bab8;
     --cor_verde_sombra: #559390;
-    --largura: 300px;
-    --altura: 500px;
 }
 
 body {
@@ -21,9 +19,10 @@ body {
 main {
     background-color: white;
     display: inline-block;
-    height: var(--altura);
-    width: var(--largura);
+    height: 500px;
+    width: 300px;
     border-radius: 10px;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.397);
     position: absolute;
 
     top: 50%;
@@ -63,11 +62,20 @@ div#form-login > form > p.p-campos {
     padding: 2px;
 }
 
+::placeholder {
+    padding: 1px;
+    text-indent: 3px;
+}
+
 div#form-login > form > p.p-campos > input {
     background-color: var(--cor_verde_claro);
     height: 30px;
     border-radius: 10px;
     vertical-align: 5px;
+}
+
+div#form-login > form > p.p-campos > input:focus {
+    background-color: white;
 }
 
 div#form-login > form > p#campo-email {

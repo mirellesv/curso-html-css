@@ -1,0 +1,44 @@
+@media screen and (min-width: 992px){
+    :root {
+        --cor_fundo: #5F2C82;
+        --cor_verde_claro: #71bab8;
+        --cor_verde_sombra: #559390;
+    }
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, var(--cor_fundo), var(--cor_verde_claro));
+    }
+
+    main {
+        width: 900px;
+        height: 350px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    div#form-login {
+        margin-right: 50%;
+    }
+    
+    div#form-login > h1 {
+        font-size: 2em;
+    }
+
+    div#form-login > p#texto {
+        font-size: 1.1em;
+    }
+
+    div#form-login > form > p.p-campos > input {
+        width: 380px;
+    }
+
+    div#form-login > form > p.p-campos, .botoes { 
+        width: 430px;
+    }
+}
