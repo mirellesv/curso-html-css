@@ -28,6 +28,7 @@
     
     div#form-login > h1 {
         font-size: 2em;
+        margin-top: 15px;
     }
 
     div#form-login > p#texto {
