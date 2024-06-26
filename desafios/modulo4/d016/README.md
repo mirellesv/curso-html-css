@@ -1,7 +1,7 @@
 <h1> Tela de Login responsiva </h1>
 
-Neste desafio, fui proposta a fazer uma tela de login responsiva (para telas pequenas (celulares), tablets e desktop) usando somente HTML e CSS. 
-O projeto foi feito de acordo com a metodologia Mobile First.
+Neste desafio, foi feita uma tela de login responsiva (para telas pequenas (celulares), tablets e desktop) usando somente HTML e CSS. 
+Fiz este projeto de acordo com a metodologia Mobile First.
 
 <h2> Tela para celular: </h2>
 <img src="https://github.com/mirellesv/curso-html-css/assets/121313685/af2f15a1-eceb-48a9-b351-a6a49817ceef" alt="tela_pequena">
